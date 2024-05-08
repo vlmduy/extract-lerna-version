@@ -1,5 +1,8 @@
 name: 'Extract current lerna version'
 description: 'Extract the current version in lerna.json file'
+branding:
+  icon: 'activity'
+  color: 'green'
 outputs:
   lerna-current-version:
     description: 'Current version defined in the lerna.json file'
